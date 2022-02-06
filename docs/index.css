@@ -1,21 +1,74 @@
 body {
-    background: white;
     color: black;
-    font: 16px/1.5 sans-serif;
-}
-.container {
-    max-width: 600px;
-    margin: 40px auto;
-}
-img.logo {
-    float: right;
 }
 a {
-    color: #0076DD;
+    color: blue;
 }
-hr {
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    margin-top: 30px;
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.wrapper .container {
+    max-width: 80rem;
+    background: white;
+}
+.wrapper > .container {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+.post {
+    margin-bottom: 2rem;
+}
+.post h3 {
+    margin-bottom: 0;
+}
+.taglist ul {
+    display: inline;
+}
+.taglist li {
+    display: inline;
+    list-style: none;   
+}
+
+/* MEDIA QUERIES */
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) { ... }
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) { ... }
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) { ... }
+
+/* BACKGROUND ACTION */
+.bg-0 {
+  background-image: linear-gradient(90deg, #fb94ff 25%, #fff700 25%, #fff700 50%, #fb94ff 50%, #fb94ff 75%, #fff700 75%, #fff700 100%);
+  background-size: 80.00px 80.00px;
+}
+.bg-1 {
+  background-color: #6495ED;
+  background-image: radial-gradient(circle, yellow 15%, transparent 10%), radial-gradient(circle, yellow 15%, transparent 10%);
+  background-size: 100px 100px;
+  background-position: 0 0, 50px 50px;
+}
+.bg-2 {
+  background: linear-gradient(135deg, #00CED1 1%, #fff 1%, #fff 49%, #00CED1 49%, #00CED1 51%, #fff 51%, #fff 99%, #00CED1 99%);
+  background-size: 6px 6px;
+  background-position: 50px 50px;
+}
+.bg-3 {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAP0lEQVQoU42Q0QoAIAgDz///aMPAKKeQb26HTg0tB6zKVUhI4Bus5tMn2K4Djh7gBGXM7Uvo5riQ/BfUNwwTWfn+Cgg4zkoRAAAAAElFTkSuQmCC
+    ) repeat;
+}
+.bg-4 {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAHElEQVQYV2M8c+bMfwYcgBEkaWJiwohNftBJAgDkoRtrmmfg/wAAAABJRU5ErkJggg==
+   ) repeat;
 }

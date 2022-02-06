@@ -3,8 +3,17 @@
 <head>
 <title><%= root.data.title %></title>
 <meta charset="utf-8">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 <link rel="stylesheet" href="<%= rootPath %>/index.css">
+<script src="<%= rootPath %>/script.js"></script>
+
 <link rel="alternate" type="application/rss+xml" href="rss.xml" title="<%= rootPath %>/<%= root.data.title %> RSS">
 </head>
 <body>
-<div class="container">
+<main class="wrapper">
+<section class="container">
