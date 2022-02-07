@@ -4,6 +4,11 @@
 <title>in tune defense</title>
 <meta charset="utf-8">
 
+<!-- Embed Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 <!-- CSS Reset -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
@@ -16,32 +21,55 @@
 </head>
 <body>
 <main class="wrapper">
-<section class="container">
+<section class="container"><div class="row header">
+    <div class="column">
+        <img class="logo" src="https://raw.githubusercontent.com/mourner/tinyjam/master/tinyjam.png" width="131">
 
-<img class="logo" src="https://raw.githubusercontent.com/mourner/tinyjam/master/tinyjam.png" width="131">
-
-<h1>in tune defense</h1>
-
-    <div class="post">
-        <h3><a href="posts/02.html">Another post</a> — Fri May 08 2020</h3>
-        
-            <div class="taglist">
-            <em>Tags</em>
-                <ul>
-                <li><a href="#cool">cool</a></li>
+        <h1>in tune defense</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="column column-75 body">
+                    <div class="post">
+                <h3><a href="posts/02.html">Another post</a> — Fri May 08 2020</h3>
                 
-                <li><a href="#yeah">yeah</a></li>
-                </ul>
+                    <div class="taglist">
+                        <ul>
+                        <li><a class="tag-select" href="#music">music</a></li>
+                        
+                        <li><a class="tag-select" href="#food">food</a></li>
+                        </ul>
+                    </div>
+                
             </div>
-        
-    </div>
-    <div class="post">
-        <h3><a href="posts/01.html">Hello tinyjam</a> — Thu May 07 2020</h3>
-        
-    </div>
+                    <div class="post">
+                <h3><a href="posts/01.html">Hello tinyjam</a> — Thu May 07 2020</h3>
+                
+                    <div class="taglist">
+                        <ul>
+                        <li><a class="tag-select" href="#music">music</a></li>
+                        </ul>
+                    </div>
+                
+            </div>
+            </div>
+    <div class="column column-25 menu">
+    <nav>
+        <ul>
+            <li><a class="tag-select" href="#all">All</a></li>
+            <li><a class="tag-select" href="#music">Music</a></li>
+            <li><a class="tag-select" href="#food">Food</a></li>
+            <li><a class="tag-select" href="#beer">Beer</a></li>
+        </ul>
+    </nav>
+</div></div>
 
-<hr>
-<p>&copy; this year, in tune defense.</p>
+<footer class="row footer">
+	<div class="column">
+		<hr>
+		<p>&copy; this year, in tune defense.</p>
+	</div>
+</footer>
 </section>
 </main>
 </body>

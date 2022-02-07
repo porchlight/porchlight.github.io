@@ -2,8 +2,23 @@
 
 <p><a href="../index.html">&larr; <%= root.data.title %></a></p>
 
-<h1><%= title %></h1>
-<%- body %>
-<p><em>Posted on <%= date.toDateString() %>.</em></p>
-
+<div class="row">
+    <div class="column column-75 body">
+		<h1><%= title %></h1>
+		<% if (typeof soundcloud != 'undefined' && soundcloud) { %>
+			<%- soundcloud %>
+		<% } %>
+		<% if (typeof bandcamp != 'undefined' && bandcamp) { %>
+			<%- bandcamp %>
+		<% } %>
+		<% if (typeof youtube != 'undefined' && youtube) { %>
+			<%- youtube %>
+		<% } %>
+		<% if (typeof twitter != 'undefined' && twitter) { %>
+			<%- twitter %>
+		<% } %>
+		<%- body %>
+		<p><em>Posted on <%= date.toDateString() %>.</em></p>
+	</div>
+</div>
 <%- include('../_footer.ejs') -%>

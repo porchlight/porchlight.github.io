@@ -1,21 +1,27 @@
 <%- include('_header.ejs') -%>
+<div class="row header">
+    <div class="column">
+        <img class="logo" src="https://raw.githubusercontent.com/mourner/tinyjam/master/tinyjam.png" width="131">
 
-<img class="logo" src="https://raw.githubusercontent.com/mourner/tinyjam/master/tinyjam.png" width="131">
-
-<h1><%= data.title %></h1>
-
-<% for (const name of Object.keys(posts).reverse()) { const {date, title, tags} = posts[name]; -%>
-    <div class="post">
-        <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
-        <% if (tags) { %>
-            <div class="taglist">
-            <em>Tags</em>
-                <ul><% for(var i=0; i<tags.length; i++) {%>
-                <li><a href="#<%= tags[i] %>"><%= tags[i] %></a></li>
-                <% } %></ul>
-            </div>
-        <% } %>
+        <h1><%= data.title %></h1>
     </div>
-<% } -%>
+</div>
+<div class="row">
+    <div class="column column-75 body">
+        <% for (const name of Object.keys(posts).reverse()) { const {date, title, tags} = posts[name]; -%>
+            <div class="post">
+                <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
+                <% if (tags) { %>
+                    <div class="taglist">
+                        <ul><% for(var i=0; i<tags.length; i++) {%>
+                        <li><a class="tag-select" href="#<%= tags[i] %>"><%= tags[i] %></a></li>
+                        <% } %></ul>
+                    </div>
+                <% } %>
+            </div>
+        <% } -%>
+    </div>
+    <%- include('_menu.ejs') -%>
+</div>
 
 <%- include('_footer.ejs') -%>
