@@ -27,15 +27,17 @@
 <div class="row">
     <div class="column column-75 body">
 		<h1>Another post</h1>
-		
-			<iframe width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1202261281&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		
-		
-		
-		
 		<p>Ok man</p>
 
 		<p><em>Posted on Fri May 08 2020.</em></p>
+		<div id="comments"></div>
+		<script>
+			window.rpc_host = 'https://rpc.dyuproject.com';
+			window.comments_max_depth = 10; // max: 127
+			window.comments_collapse_depth = 7; // the depth where comments get collapsed by default
+		</script>
+		<script src="https://netlify-comments.dyuproject.com/dist/build.js"></script>
+		<link rel="stylesheet" href="https://netlify-comments.dyuproject.com/dist/build.css" />
 	</div>
 </div>
 <footer class="row footer">

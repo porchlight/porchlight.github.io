@@ -5,20 +5,16 @@
 <div class="row">
     <div class="column column-75 body">
 		<h1><%= title %></h1>
-		<% if (typeof soundcloud != 'undefined' && soundcloud) { %>
-			<%- soundcloud %>
-		<% } %>
-		<% if (typeof bandcamp != 'undefined' && bandcamp) { %>
-			<%- bandcamp %>
-		<% } %>
-		<% if (typeof youtube != 'undefined' && youtube) { %>
-			<%- youtube %>
-		<% } %>
-		<% if (typeof twitter != 'undefined' && twitter) { %>
-			<%- twitter %>
-		<% } %>
 		<%- body %>
 		<p><em>Posted on <%= date.toDateString() %>.</em></p>
+		<div id="comments"></div>
+		<script>
+			window.rpc_host = 'https://rpc.dyuproject.com';
+			window.comments_max_depth = 10; // max: 127
+			window.comments_collapse_depth = 7; // the depth where comments get collapsed by default
+		</script>
+		<script src="https://netlify-comments.dyuproject.com/dist/build.js"></script>
+		<link rel="stylesheet" href="https://netlify-comments.dyuproject.com/dist/build.css" />
 	</div>
 </div>
 <%- include('../_footer.ejs') -%>
