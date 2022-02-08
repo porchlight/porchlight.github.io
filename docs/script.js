@@ -26,7 +26,26 @@ function tagToggle(hash) {
 }
 
 window.addEventListener('load', () => {
+	// Backgorund action  	
 	document.body.classList.add('bg-' + num);
+
+	// Menu toggle.
+	document.querySelector('.menu-toggle').addEventListener('click', (e) => {
+		var responsive_menu = document.getElementById('responsive-menu');
+		if (responsive_menu.className === 'responsive') {
+	    	responsive_menu.className += ' active';
+	    	document.querySelector('.menu-toggle').innerHTML = 'X';
+	  	} else {
+	    	responsive_menu.className = 'responsive';
+	    	document.querySelector('.menu-toggle').innerHTML = '...';
+	  	}
+	});
+
+	// Check for a hash on load, if there is then filter the page.
+	var hash = window.location.hash.substr(1);
+	if (hash) {
+		tagToggle('#' + hash);
+	}
 	// Add a click event to all the tags
 	var elements = document.querySelectorAll('.tag-select');
 	for (var i = 0; i < elements.length; i++) {

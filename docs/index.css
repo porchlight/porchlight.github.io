@@ -37,15 +37,71 @@ a:hover {
     list-style: none;   
 }
 
+/* MENU */
+.row .column.menu {
+    display: none;
+}
+
+.responsive a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+.responsive a:not(.menu-toggle) {
+    display: none;
+}
+
+.responsive a.menu-toggle {
+    float: right;
+    padding: 1rem 2rem;
+    background: white;
+}
+
+.responsive.active a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.responsive.active {position: relative;}
+.responsive.active .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.row .column.body {
+    flex: none;
+    max-width: 100%;
+}
+
 /* MEDIA QUERIES */
 /* Larger than mobile screen */
-@media (min-width: 40.0rem) { ... }
+@media (min-width: 40.0rem) { 
+    .row .column.menu {
+        display: block;
+    }
+
+    .responsive {
+        display: none;
+    }
+    
+    .row .column.body {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
 
 /* Larger than tablet screen */
-@media (min-width: 80.0rem) { ... }
+@media (min-width: 80.0rem) { 
+
+}
 
 /* Larger than desktop screen */
-@media (min-width: 120.0rem) { ... }
+@media (min-width: 120.0rem) {
+
+}
 
 /* BACKGROUND ACTION */
 .bg-0 {
