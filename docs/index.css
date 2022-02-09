@@ -68,11 +68,17 @@ a:hover {
     text-align: left;
 }
 
-.responsive.active {position: relative;}
+.responsive.active {
+    position: relative;
+    background: yellow;
+}
+
 .responsive.active .menu-toggle {
     position: absolute;
     right: 0;
     top: 0;
+    background: blue;
+    color: white;
 }
 
 .row .column.body {
