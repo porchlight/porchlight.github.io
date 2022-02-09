@@ -1,10 +1,18 @@
 <%- include('../_header.ejs') -%>
 
-<p><a href="../index.html">&larr; <%= root.data.title %></a></p>
+<p><a href="../index.html">&larr; back</a></p>
 
-<div class="row">
+<div class="row post">
     <div class="column column-75 body">
 		<h1><%= title %></h1>
+		<div class="taglist">
+        <span><%= author %></span><span class="seperator">|</span>
+            <% if (tags) { %>
+                    <ul><% for(var i=0; i<tags.length; i++) {%>
+                        <li><a class="tag-select" href="/index.html#<%= tags[i] %>"><%= tags[i] %></a></li>
+                    <% } %></ul>
+            <% } %>
+        </div>
 		<%- body %>
 		<p><em>Posted on <%= date.toDateString() %>.</em></p>
 		<div id="comments"></div>
@@ -16,6 +24,13 @@
 		<script src="https://netlify-comments.dyuproject.com/dist/build.js"></script>
 		<link rel="stylesheet" href="https://netlify-comments.dyuproject.com/dist/build.css" />
 	</div>
-	<%- include('../_menu.ejs') -%>
+	<div class="column column-25 menu">
+        <nav>
+            <ul>
+                <li><a href="/archive.html">Archive</a></li>
+                <li><a href="/suggest.html">Make a suggestion</a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 <%- include('../_footer.ejs') -%>

@@ -1,7 +1,7 @@
 var num = Math.floor(Math.random() * 5);
 
 function tagToggle(hash) {
-	var posts = document.querySelectorAll('.post');
+	var posts = document.querySelectorAll('.post-teaser');
 	for (var i = 0; i < posts.length; i++) {
 		posts[i].style.display = 'block';
 	}
