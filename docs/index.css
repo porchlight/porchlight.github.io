@@ -15,8 +15,8 @@ a:hover {
     position: relative;
     width: 100%;
 }
+
 .wrapper .container {
-    max-width: 80rem;
     background: white;
 }
 .wrapper > .container {
@@ -102,6 +102,9 @@ a:hover {
 /* MEDIA QUERIES */
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) { 
+    .wrapper .container {
+        max-width: 80rem;
+    }
     .row .column.menu {
         display: block;
     }
