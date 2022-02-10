@@ -9,6 +9,9 @@ a:hover {
     text-decoration: underline;
     color: blue;
 }
+h3 .date {
+    
+}
 .wrapper {
     display: block;
     overflow: hidden;
@@ -43,6 +46,17 @@ a:hover {
 /* MENU */
 .row .column.menu {
     display: none;
+}
+.row .column.menu nav {
+    background: yellow;
+    padding: 1rem;
+}
+.row .column.menu ul {
+    margin-bottom: 0;
+}
+.row .column.menu li {
+    list-style: none;
+    text-align: right;
 }
 
 .responsive a {
@@ -102,9 +116,6 @@ a:hover {
 /* MEDIA QUERIES */
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) { 
-    .wrapper .container {
-        max-width: 80rem;
-    }
     .row .column.menu {
         display: block;
     }
@@ -114,8 +125,8 @@ a:hover {
     }
     
     .row .column.body {
-        flex: 0 0 75%;
-        max-width: 75%;
+        flex: 0 0 66.6666%;
+        max-width: 66.6666%;
     }
 }
 
