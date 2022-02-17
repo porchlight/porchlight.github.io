@@ -10,7 +10,7 @@ a:hover {
     color: blue;
 }
 h3 .date {
-    
+
 }
 .wrapper {
     display: block;
@@ -115,7 +115,7 @@ h3 .date {
 
 /* MEDIA QUERIES */
 /* Larger than mobile screen */
-@media (min-width: 40.0rem) { 
+@media (min-width: 50rem) { 
     .row .column.menu {
         display: block;
     }
