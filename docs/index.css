@@ -115,7 +115,7 @@ h3 .date {
 
 /* MEDIA QUERIES */
 /* Larger than mobile screen */
-@media (min-width: 4.01rem) { 
+@media (min-width: 40.1rem) { 
     .row .column.menu {
         display: block;
     }
