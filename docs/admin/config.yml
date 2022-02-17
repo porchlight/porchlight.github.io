@@ -3,6 +3,7 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 media_folder: "docs/images"
+public_folder: "/images" 
 collections:
   - name: "posts"
     label: "Posts"
