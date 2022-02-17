@@ -11,7 +11,8 @@
      <title>Another post</title>
      <link>/posts/02.html</link>
      <guid>/posts/02.html</guid>
-     <description><![CDATA[<p>Ok man</p>]]></description>
+     <description><![CDATA[<p>Ok man
+<img src="../images/test.png" alt="testing alt" title="image Title"></p>]]></description>
 </item>
 <item>
      <title>Hello tinyjam</title>
