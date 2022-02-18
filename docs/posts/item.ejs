@@ -15,8 +15,8 @@
             <span class="seperator">|</span>
             <a id="like">like</a>
         </div>
+        <p><em>Posted on <%= date.toDateString() %></em></p>
 		<%- body %>
-		<p><em>Posted on <%= date.toDateString() %>.</em></p>
 		<div id="comments"></div>
 		<script>
 			window.rpc_host = 'https://rpc.dyuproject.com';
