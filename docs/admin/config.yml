@@ -14,5 +14,5 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Author", name: "author", widget: "string", required: true}
-      - {label: "Tags", name: "tags", widget: "list", required: true}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, required: true, hint: 'Separate tags with a "," if you want more than one.'}
       - {label: "Body", name: "body", widget: "markdown", required: true}
