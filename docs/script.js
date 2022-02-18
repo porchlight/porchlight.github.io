@@ -29,6 +29,19 @@ window.addEventListener('load', () => {
 	// Backgorund action  	
 	document.body.classList.add('bg-' + num);
 
+	var button = document.getElementById("like");
+	if (window.localStorage.getItem('count')) {
+	    count = window.localStorage.getItem('count');
+	}
+	else{
+	    count = 0;
+	}
+	button.addEventListener('click', (e) => {
+		count++;
+		console.log(count);
+		window.localStorage.setItem('count', count);
+	});
+
 	// Menu toggle.
 	document.querySelector('.menu-toggle').addEventListener('click', (e) => {
 		var responsive_menu = document.getElementById('responsive-menu');

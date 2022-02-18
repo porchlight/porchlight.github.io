@@ -19,6 +19,8 @@
 <script src="../script.js"></script>
 
 <link rel="alternate" type="application/rss+xml" href="rss.xml" title="../i dont know RSS">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 <body>
 <nav class="responsive" id="responsive-menu">
@@ -32,18 +34,46 @@
 
 <div class="row post">
     <div class="column column-67 body">
-		<h1>Hello tinyjam</h1>
+		<h1>Grandma&apos;s buns</h1>
 		<div class="taglist">
-        <span>w</span><span class="seperator">|</span>
+        	<span>travis</span><span class="seperator">|</span>
             
                     <ul>
-                        <li><a class="tag-select" href="/index.html#music">music</a></li>
+                        <li><a class="tag-select" href="/index.html#food">food</a></li>
                     </ul>
             
+            <span class="seperator">|</span>
+            <a id="like">like</a>
         </div>
-		<p>This rules</p>
+		<p>Not actually my grandma&#39;s recipe, but they encompass the best part about them, <strong>YOU CANN TAKE THEM APART WITHOUT A KNIFE YOU WEAK LOSER.</strong> yeah man, thats why I like them. I&#39;ve seen them called pull-apart buns, or cloverleaf buns. anyways here&#39;s my recipe:</p>
+<p>Get 2 big bowls</p>
+<p><strong>In one bowl:</strong></p>
+<ul>
+<li>3.5 cups + 2 tablespoons all purpose flour</li>
+<li>1.5 teaspons salt</li>
+<li>mix that together</li>
+</ul>
+<p><strong>In other bowl:</strong></p>
+<ul>
+<li>2 tablespoons of sugar</li>
+<li>2 teaspons of instant yeast - you can use active yeast or whatever too, this is just easier and what i have used</li>
+<li>4 tablespoons of softened butter</li>
+<li>1 cup + 2.5 tablespoons of Warm milk</li>
+</ul>
+<p>Once you have the 2 bowls ready to go, start pouring the flour/salt bowl into the wet (wetter) bowl about a cup at a time and mixing with a fucking wooden spoon or something. </p>
+<p>Once you have all the shit combined, just keep mixing with the wooden spoon until you see its not mixing enough. </p>
+<p>Then wash your hands, roll up your sleeves, and put your hands in there and just keep rolling it around and folding it in on itself for like 5 minutes or until it looks and acts like dough. </p>
+<p>Wash the now empty bowl and dry it off, then grease it up with some butter or pam or something. </p>
+<p>Take your doughball and throw it in the greased bowl and put a damp dish drying towel over your bowl and put it somewhere warmish in your house. </p>
+<p>Let it sit for 60-90 minutes.</p>
+<p>Grab a muffin tray (12 spots), grease up the holes by rubbing some margerine or butter around in them with parchment paper.</p>
+<p>Take out your dough bowl and throw it down on a surface witha bit of flour, roll it around. </p>
+<p>Then you need to chop this fucker up into 12 equally sized balls. I usually chop it into 3 equal pieces, then from each of those I chop them into 4. SO I have 12 ballssssss. Then I cut each in half, then each of those pieces i fold a bit into a ball. Then place 2 balss in each place in the muffin tray! </p>
+<p>Lay your dish towel on top of the rack and let it chill for another hour.</p>
+<p>Preheat your over to 350. Take off the towel and put the buns in the oven for 22 minutes.</p>
+<p>Melt some butter, take the buns out and then brush some butter on top of them. <strong>DONE</strong></p>
 
-		<p><em>Posted on Thu May 07 2020.</em></p>
+		<p><em>Posted on Sun Feb 16 2020.</em></p>
 		<div id="comments"></div>
 		<script>
 			window.rpc_host = 'https://rpc.dyuproject.com';
@@ -69,5 +99,46 @@
 </footer>
 </section>
 </main>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAMWob4_sud-T4habdemHSvradZfuVUSm8",
+    authDomain: "porchlight-3d66b.firebaseapp.com",
+    projectId: "porchlight-3d66b",
+    storageBucket: "porchlight-3d66b.appspot.com",
+    databaseURL: "https://porchlight-3d66b.firebaseio.com",
+    messagingSenderId: "371791228198",
+    appId: "1:371791228198:web:bf82f98e86602df11125e7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Get a list of poiints from your database
+  async function getPoints(db) {
+    const pointsCol = collection(db, 'points');
+    console.log(pointsCol);
+    // const citySnapshot = await getDocs(poiint);
+    // const cityList = citySnapshot.docs.map(doc => doc.data());
+    // return cityList;
+  }
+</script>
 </body>
 </html>

@@ -6,12 +6,14 @@
     <div class="column column-67 body">
 		<h1><%= title %></h1>
 		<div class="taglist">
-        <span><%= author %></span><span class="seperator">|</span>
+        	<span><%= author %></span><span class="seperator">|</span>
             <% if (tags) { %>
                     <ul><% for(var i=0; i<tags.length; i++) {%>
                         <li><a class="tag-select" href="/index.html#<%= tags[i] %>"><%= tags[i] %></a></li>
                     <% } %></ul>
             <% } %>
+            <span class="seperator">|</span>
+            <a id="like">like</a>
         </div>
 		<%- body %>
 		<p><em>Posted on <%= date.toDateString() %>.</em></p>
