@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>i dont know</title>
+<title>nosebleeds</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Embed Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Palette+Mosaic&family=Rock+3D&&display=swap" rel="stylesheet">
 
 <!-- CSS Reset -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="./index.css">
 <script src="./script.js"></script>
 
-<link rel="alternate" type="application/rss+xml" href="rss.xml" title="./i dont know RSS">
+<link rel="alternate" type="application/rss+xml" href="rss.xml" title="./nosebleeds RSS">
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
@@ -30,11 +30,15 @@
 </nav>
 <main class="wrapper">
 <section class="container">
+<div class="row">
+    <h1><a href="/">nosebleeds</a></h1>
+</div>
+
 <p><a href="../index.html">&larr; back</a></p>
 
 <div class="row">
     <div class="column column-67 body">
-        <h1>Make a suggestion</h1>
+        <h2>Make a suggestion</h2>
         <form action="/submit.php"  method="post" class="suggestion-form">
             <label for="name">Name</label><span class="error">*</span>
             <input type="text" id="name" name="name" placeholder="Your name..">
@@ -76,36 +80,6 @@
         });
       }
     });
-  }
-</script>
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyAMWob4_sud-T4habdemHSvradZfuVUSm8",
-    authDomain: "porchlight-3d66b.firebaseapp.com",
-    projectId: "porchlight-3d66b",
-    storageBucket: "porchlight-3d66b.appspot.com",
-    databaseURL: "https://porchlight-3d66b.firebaseio.com",
-    messagingSenderId: "371791228198",
-    appId: "1:371791228198:web:bf82f98e86602df11125e7"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
-
-  // Get a list of poiints from your database
-  async function getPoints(db) {
-    const pointsCol = collection(db, 'points');
-    console.log(pointsCol);
-    // const citySnapshot = await getDocs(poiint);
-    // const cityList = citySnapshot.docs.map(doc => doc.data());
-    // return cityList;
   }
 </script>
 </body>

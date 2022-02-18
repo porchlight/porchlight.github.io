@@ -19,7 +19,17 @@ span .date {
     position: relative;
     width: 100%;
 }
-
+h1 {
+    /*font-family: 'Palette Mosaic', cursive;*/
+    font-family: 'Rock 3D', cursive;
+}
+h1 a {
+    color: black;
+}
+h1 a:hover {
+    text-decoration: none;
+    color: black;
+}
 .wrapper .container {
     background: white;
 }
@@ -30,7 +40,7 @@ span .date {
 .post-teaser, .post .taglist {
     margin-bottom: 2rem;
 }
-.post-teaser h3, .post h1 {
+.post-teaser h3, .post h2 {
     margin-bottom: 0;
 }
 .taglist ul {
