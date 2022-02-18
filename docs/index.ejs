@@ -4,7 +4,7 @@
         <% for (const name of Object.keys(posts).reverse()) { const {date, title, author, tags} = posts[name]; -%>
             <div class="post-teaser">
                 <h3><a href="posts/<%= name %>.html"><%= title %></a></h3>
-                <div class="date"><%= date.toLocaleString() %></div>
+                <div class="date"><%= date.toLocaleDateString('en-GB') %></div>
                 <div class="taglist">
                 <span><%= author %></span><span class="seperator">|</span>
                     <% if (tags) { %>
