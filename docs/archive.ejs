@@ -3,7 +3,14 @@
 <div class="row">
     <div class="column column-67 body">
         <h2>Archive</h2>
-        <% for (const name of Object.keys(posts).reverse()) { const {date, title, author, tags} = posts[name]; -%>
+        <% const sortable = {};
+            for (const post of Object.values(posts)) {
+                const key = Date.parse(post.date);
+                sortable[key] = post;
+            }
+        %>
+        <% for (const date of Object.keys(sortable).sort(([,a],[,b]) => a-b)) { const {name, title, author, tags} = sortable[date]; -%>
+            <% const formatted_date = new Date(parseInt(date)); %>
             <div class="post-teaser">
                 <h3><a href="posts/<%= name %>.html"><%= title %></a></h3>
                 <div class="date"><%= date.toLocaleString('en-CA') %></div>

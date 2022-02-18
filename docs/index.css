@@ -71,7 +71,11 @@ h1 a:hover {
     list-style: none;
     text-align: right;
 }
-
+.responsive {
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
 .responsive a {
   float: left;
   display: block;
@@ -135,7 +139,10 @@ h1 a:hover {
     .row .column.menu {
         display: block;
     }
-
+    .row .column.menu nav {
+        position: sticky;
+        top: 200px;
+    }
     .responsive {
         display: none;
     }
@@ -143,6 +150,9 @@ h1 a:hover {
     .row .column.body {
         flex: 0 0 66.6666%;
         max-width: 66.6666%;
+    }
+    .wrapper {
+        overflow: inherit;
     }
 }
 

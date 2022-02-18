@@ -12,10 +12,14 @@
                         <li><a class="tag-select" href="/index.html#<%= tags[i] %>"><%= tags[i] %></a></li>
                     <% } %></ul>
             <% } %>
+            <span class="seperator">|</span>
+            <a href="#comments">comments</a>
         </div>
         <p><em>Posted on <%= date.toLocaleString('en-CA') %></em></p>
 		<%- body %>
-		<div id="comments"></div>
+		<div id="comments">
+            <h2>Comments</h2>
+        </div>
 		<script>
 			window.rpc_host = 'https://rpc.dyuproject.com';
 			window.comments_max_depth = 10; // max: 127
