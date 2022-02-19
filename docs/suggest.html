@@ -39,20 +39,21 @@
 <div class="row">
     <div class="column column-67 body">
         <h2>Make a suggestion</h2>
-        <form action="/submit.php"  method="post" class="suggestion-form">
-            <label for="name">Name</label><span class="error">*</span>
-            <input type="text" id="name" name="name" placeholder="Your name..">
-            <span class="error"><?php echo $name_error;?></span>
-            <label for="emaik">Email</label><span class="error">*</span>
-            <input type="email" id="email" name="email" placeholder="Your email..">
-            <span class="error"><?php echo $email_error;?></span>
+        
+        <form action="https://formspree.io/f/mpzbpgja" method="POST" id="suggestion-form">
+            <label for="name">Name</label><span class="required">*</span>
+            <input type="text" id="name" name="name" placeholder="Your name.." required="">
+            <label for="emaik">Email</label><span class="required">*</span>
+            <input type="email" id="email" name="email" placeholder="Your email.." required="">
 
-            <label for="suggestion">Suggestion</label><span class="error">*</span>
-            <textarea id="suggestion" name="suggestion" placeholder="What's your suggestion.." style="height:200px"></textarea>
-            <span class="error"><?php echo $suggestion_error;?></span>
-            <p>* I may turn this into a post, so hitting submit means it's mine! I'll give you author credit though!</p>
-            <input class="button"type="submit" value="Submit">
-          </form>
+            <label for="suggestion">Suggestion</label><span class="required">*</span>
+            <textarea id="suggestion" name="suggestion" placeholder="What's your suggestion.." required=""></textarea>
+            <p>* We may turn this into a post, so hitting submit means we can do that. We'll give you a shout out though! maybe</p>
+            <blockquote class="disclaimer">
+                <p><em>Once you hit submit and you go to that "formspree" site for the thank you message, you have submitted this form, so don't do it again. I'm using that free form service because I'm lazy</em></p>
+            </blockquote>
+            <button type="submit" id="submit">Submit</button>
+        </form>
     </div>
     <div class="column column-33 menu">
         <nav>

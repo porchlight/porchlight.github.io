@@ -122,12 +122,20 @@ h1 a:hover {
     border-color: blue;
 }
 
-.suggestion-form label {
+#suggestion-form label {
     float: left;
 }
 
-.error {
+#suggestion-form textarea {
+    height: 200px;
+}
+.disclaimer {
+    background: lightcyan;
+    border-color: black;
+}
+.required {
     color: red;
+    margin: .25rem;
 }
 
 /* MEDIA QUERIES */
