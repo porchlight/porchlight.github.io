@@ -16,7 +16,7 @@
            sortable[key] = posts[prop];
        }
    %>
-   <% for (const date of Object.keys(sortable).sort(([,a],[,b]) => a-b).reverse().slice(0, 10)) { const {title, body, slug} = sortable[date]; -%>
+   <% for (const date of Object.keys(sortable).sort().reverse().slice(0, 10)) { const {title, body, slug} = sortable[date]; -%>
 <item>
      <title><%= title %></title>
      <link><%= data.link %>/posts/<%= slug %>.html</link>
