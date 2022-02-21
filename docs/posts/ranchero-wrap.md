@@ -1,6 +1,6 @@
 ---
 title: Ranchero Wrap
-date: 2022-02-21T00:42:57.022Z
+date: February 20, 2022 9:33 PM
 author: travis
 tags:
   - food
