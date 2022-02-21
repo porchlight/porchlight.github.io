@@ -1,5 +1,5 @@
 ---
-title: Heavy Discipline - Heavy Discipline
+title: Heavy Discipline - s/t
 date: February 20, 2022 9:42 PM
 author: travisHC
 tags:
