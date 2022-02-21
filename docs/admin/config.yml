@@ -12,9 +12,9 @@ collections:
     preview_path: "posts/{{slug}}"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Date", name: "date", widget: "datetime", required: true}
-      - {label: "Author", name: "author", widget: "string", required: true}
-      - {label: "Tags", name: "tags", widget: "select", multiple: true, options: ["beer", "food", "music", "movies", "sports", "other"], required: true}
-      - {label: "shorty", name: "shorty", widget: "boolean", hint: "A shorty is one you want to show the whole post on the homepage."}
-      - {label: "Body", name: "body", widget: "markdown", required: true}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "select", multiple: true, options: ["beer", "food", "music", "movies", "sports", "other"]}
+      - {label: "shorty", name: "shorty", widget: "boolean", hint: "A shorty is one you want to show the whole post on the homepage.", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
