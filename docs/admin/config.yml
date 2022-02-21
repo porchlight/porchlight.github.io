@@ -16,4 +16,5 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", required: true}
       - {label: "Author", name: "author", widget: "string", required: true}
       - {label: "Tags", name: "tags", widget: "select", multiple: true, options: ["beer", "food", "music", "movies", "sports", "other"], required: true}
+      - {label: "shorty", name: "shorty", widget: "boolean", hint: "A shorty is one you want to show the whole post on the homepage."}
       - {label: "Body", name: "body", widget: "markdown", required: true}

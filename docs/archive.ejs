@@ -13,7 +13,7 @@
                 sortable[key] = posts[prop];
             }
         %>
-        <% for (const date of Object.keys(sortable).sort(([,a],[,b]) => a-b)) { const {name, title, author, tags, slug} = sortable[date]; -%>
+        <% for (const date of Object.keys(sortable).sort(([,a],[,b]) => a-b).reverse().slice(0, 10)) { const {name, title, body, author, tags, slug, shorty} = sortable[date]; -%>
             <% const formatted_date = new Date(parseInt(date)); %>
             <div class="post-teaser">
                 <h3><a href="posts/<%= slug %>.html"><%= title %></a></h3>

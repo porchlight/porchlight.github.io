@@ -7,12 +7,23 @@
 <description>A minimal blog template for tinyjam.</description>
 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
 
-<item>
-     <title>Another post</title>
+   <item>
+     <title>ANIMA - Wheat</title>
      <link>/posts/02.html</link>
      <guid>/posts/02.html</guid>
-     <description><![CDATA[<p>Ok man
-<img src="../images/test.png" alt="testing alt" title="image Title"></p>]]></description>
+     <description><![CDATA[<p>Anything this ANIMA person does rules. I find it so calming, but at the same time so anxious and energizing. A lot of it has recognizable riddims, or lyrics but always altered to the point where it&#39;s not always obvious upon first listen. This would be like my favourite genre if it were one, but it&#39;s literally just this person as far as I know. And suprising I like it eventhough there are barely any drums. Hook me up in the comments if you know something else close to this! </p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1140236119&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<p>Here are some more of my favs:</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/719843425&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/924476995&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/840519439&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/529221045&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/570971970&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>]]></description>
 </item>
 <item>
      <title>Grandma&apos;s buns</title>
