@@ -25,7 +25,7 @@ So yeah, mix that stuff all together and throw it covered into the fridge for a 
 * the meal takes about 10 minutes to cook once you start the burner, so you should start your rice to accommodate for that (I buy big boxes of Minute Rice brown rice (pic below) and just microwave a cup of rice, and a cup of water for 10 minutes, so easy)
 * chunk up at least half a head of broccoli
 * at least 1 pepper (red, yellow, or orange) sliced, not diced
-* maybe 2-3 "discs" of red onion, sliced not diced
+* maybe 2-3 "discs" of red onion, sliced not diced (you know what a disc is, don't give me that)
 * crush 15 almonds or peanuts or cashews (I usually put them in a ziplock and beat it up)
 * have ready to add: soy sauce, red pepper flakes, peanut butter, sriracha 
 
