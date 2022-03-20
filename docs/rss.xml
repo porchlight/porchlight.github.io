@@ -8,6 +8,12 @@
 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
 
    <item>
+     <title>Gary Borthwick Says</title>
+     <link>/posts/gary-borthwick-says.html</link>
+     <guid>/posts/gary-borthwick-says.html</guid>
+     <description><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/EcfX6bJhO48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></description>
+</item>
+<item>
      <title>Asian stir fry thing</title>
      <link>/posts/asian-stir-fry-thing.html</link>
      <guid>/posts/asian-stir-fry-thing.html</guid>
