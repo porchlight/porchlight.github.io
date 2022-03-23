@@ -39,15 +39,10 @@ h1 a:hover {
 }
 .post-teaser, .post .taglist {
     padding: 1rem;
+    border-bottom: 1px black dashed;
 }
 .post-teaser h3, .post h2 {
     margin-bottom: 0;
-}
-.post-teaser:nth-child(odd) {
-    background: ghostwhite;
-}
-.post-teaser:nth-child(even) {
-    background: whitesmoke;
 }
 .taglist ul {
     display: inline;
