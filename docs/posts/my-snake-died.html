@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>nosebleeds</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/jpg" href="/favicon.png"/>
+<!-- Embed Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Palette+Mosaic&family=Rock+3D&&display=swap" rel="stylesheet">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+<!-- Milligram CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+<link rel="stylesheet" href="../index.css">
+<script src="../script.js"></script>
+
+<link rel="alternate" type="application/rss+xml" href="rss.xml" title="../nosebleeds RSS">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+</head>
+<body>
+<nav class="responsive" id="responsive-menu">
+    <a href="/">Home</a>
+    <a href="/archive.html">Archive</a>
+    <a href="/suggest.html">Make a suggestion</a>
+	<a href="javascript:void(0);" class="menu-toggle">...</a>
+</nav>
+<main class="wrapper">
+<section class="container">
+<div class="row">
+    <div class="column"><h1><a href="/">nosebleeds</a></h1></div>
+</div>
+
+<p><a href="../index.html">&larr; back</a></p>
+
+<div class="row post">
+    <div class="column column-67 body">
+		<h2>My snake died</h2>
+		<div class="taglist">
+        	<span>travis</span><span class="seperator">|</span>
+            
+                    <ul>
+                        <li><a class="tag-select" href="/index.html#other">other</a></li>
+                    </ul>
+            
+            <span class="seperator">|</span>
+            <a href="#comments">comments</a>
+        </div>
+        <p><em>Posted on March 21, 2022 9:10 AM</em></p>
+		<blockquote class="twitter-tweet"><p lang="und" dir="ltr">😭😭😭😭 <a href="https://t.co/NBtTYQUm2b">pic.twitter.com/NBtTYQUm2b</a></p>&mdash; Tristan (@TristanGHill) <a href="https://twitter.com/TristanGHill/status/1505271932861751308?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div id="comments">
+            <h2>Comments</h2>
+        </div>
+		<script>
+			window.rpc_host = 'https://rpc.dyuproject.com';
+			window.comments_max_depth = 10; // max: 127
+			window.comments_collapse_depth = 7; // the depth where comments get collapsed by default
+		</script>
+		<script src="https://netlify-comments.dyuproject.com/dist/build.js"></script>
+		<link rel="stylesheet" href="https://netlify-comments.dyuproject.com/dist/build.css" />
+	</div>
+	<div class="column column-33 menu">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/archive.html">Archive</a></li>
+                <li><a href="/suggest.html">Make a suggestion</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<footer class="row footer">
+	<div class="column">
+		<hr>
+	</div>
+</footer>
+</section>
+</main>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>

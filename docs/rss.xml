@@ -8,6 +8,12 @@
 <atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
 
    <item>
+     <title>My snake died</title>
+     <link>/posts/my-snake-died.html</link>
+     <guid>/posts/my-snake-died.html</guid>
+     <description><![CDATA[<blockquote class="twitter-tweet"><p lang="und" dir="ltr">😭😭😭😭 <a href="https://t.co/NBtTYQUm2b">pic.twitter.com/NBtTYQUm2b</a></p>&mdash; Tristan (@TristanGHill) <a href="https://twitter.com/TristanGHill/status/1505271932861751308?ref_src=twsrc%5Etfw">March 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></description>
+</item>
+<item>
      <title>Gary Borthwick Says</title>
      <link>/posts/gary-borthwick-says.html</link>
      <guid>/posts/gary-borthwick-says.html</guid>
