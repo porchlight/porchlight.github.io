@@ -1,5 +1,5 @@
 ---
-title: "Today I'm listening to: GEE TOO - FAST Demo"
+title: "Today I'm listening to: GEE TEE - FAST Demo"
 date: March 29, 2022 1:34 PM
 author: travis
 tags:
