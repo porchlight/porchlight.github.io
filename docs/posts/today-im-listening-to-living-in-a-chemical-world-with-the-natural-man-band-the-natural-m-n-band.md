@@ -1,6 +1,6 @@
 ---
-title: "Today I'm listening to:  LIVING IN A CHEMICAL WORLD WITH THE NATURAL MAN
-  BAND - The Natural M*n Band"
+title: "Today I'm listening to: The Natural M*n Band - LIVING IN A CHEMICAL
+  WORLD WITH THE NATURAL MAN BAND"
 date: March 30, 2022 1:10 PM
 author: travis
 tags:
