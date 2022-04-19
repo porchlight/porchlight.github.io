@@ -4,7 +4,6 @@ date: February 20, 2022 9:33 PM
 author: travis
 tags:
   - food
-shorty: false
 ---
 So this is my take on an overpriced wrap I used to pay for almost weekly when working in office downtown. Place was called "Salad Bowl", the wrap is called the "Ranchero Wrap". This is my copycat recipe, feeds 2:
 
