@@ -86,14 +86,23 @@ h1 a:hover {
   padding: 1rem 2rem;
 }
 
-.responsive a:not(.menu-toggle) {
+.responsive a {
     display: none;
 }
 
-.responsive a.menu-toggle {
+.responsive button.menu-toggle {
     float: right;
     padding: 1rem 2rem;
-    background: white;
+    border: 0;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 0;
+    background: blue;
+    color: white;
+    height: 50px;
 }
 
 .responsive.active a {
@@ -103,7 +112,7 @@ h1 a:hover {
 }
 
 .responsive.active {
-    position: relative;
+    /*position: relative;*/
     background: #fff700;
 }
 
@@ -111,8 +120,8 @@ h1 a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    background: blue;
-    color: white;
+    background: white;
+    color: blue;
 }
 
 .row .column.body {
