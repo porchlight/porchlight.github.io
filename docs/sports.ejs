@@ -1,10 +1,15 @@
+<% var title = 'Sports' %>
 <%- include('_header.ejs') -%>
 <div class="row">
     <div class="column column-67 body">
+        <h2>Sports</h2>
         <% const sortable = {};
             for (const prop in posts) {
                 if (prop === 'root') {
                     continue
+                }
+                if (!posts[prop].tags.includes("sports")) {
+                    continue   
                 }
                 const key = Date.parse(posts[prop].date);
                 posts[prop].slug = prop;

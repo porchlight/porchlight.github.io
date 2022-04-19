@@ -1,6 +1,5 @@
 <% var title = 'Make a suggestion' %>
 <%- include('_header.ejs') -%>
-<p><a href="../index.html">&larr; back</a></p>
 <div class="row">
     <div class="column column-67 body">
         <h2>Make a suggestion</h2>
@@ -20,15 +19,7 @@
             <button type="submit" id="submit">Submit</button>
         </form>
     </div>
-    <div class="column column-33 menu">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/archive.html">Archive</a></li>
-                <li><a href="/suggest.html">Make a suggestion</a></li>
-            </ul>
-        </nav>
-    </div>
+    <%- include('_menu.ejs') -%>
 </div>
 
 <%- include('_footer.ejs') -%>

@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>
     
-        Make a suggestion | nosebleeds
+        Today I&apos;m listening to: Smirk - LP | nosebleeds
     
 </title>
 <meta charset="utf-8">
@@ -21,10 +20,10 @@
 
 <!-- Milligram CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-<link rel="stylesheet" href="./index.css">
-<script src="./script.js"></script>
+<link rel="stylesheet" href="../index.css">
+<script src="../script.js"></script>
 
-<link rel="alternate" type="application/rss+xml" href="rss.xml" title="./nosebleeds RSS">
+<link rel="alternate" type="application/rss+xml" href="rss.xml" title="../nosebleeds RSS">
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQ3HKYN8XV"></script>
@@ -48,26 +47,34 @@
 <div class="row">
     <div class="column"><h1><a href="/">nosebleeds</a></h1></div>
 </div>
-<div class="row">
-    <div class="column column-67 body">
-        <h2>Make a suggestion</h2>
-        
-        <form action="https://formspree.io/f/mpzbpgja" method="POST" id="suggestion-form">
-            <label for="name">Name</label><span class="required">*</span>
-            <input type="text" id="name" name="name" placeholder="Your name.." required="">
-            <label for="emaik">Email</label><span class="required">*</span>
-            <input type="email" id="email" name="email" placeholder="Your email.." required="">
 
-            <label for="suggestion">Suggestion</label><span class="required">*</span>
-            <textarea id="suggestion" name="suggestion" placeholder="What's your suggestion.." required=""></textarea>
-            <p>* We may turn this into a post, so hitting submit means we can do that. We'll give you a shout out though! maybe</p>
-            <blockquote class="disclaimer">
-                <p><em>Once you hit submit and you go to that "formspree" site for the thank you message, you have submitted this form, so don't do it again. I'm using that free form service because I'm lazy</em></p>
-            </blockquote>
-            <button type="submit" id="submit">Submit</button>
-        </form>
-    </div>
-    <div class="column column-33 menu">
+<div class="row post">
+    <div class="column column-67 body">
+		<h2>Today I&apos;m listening to: Smirk - LP</h2>
+		<div class="taglist">
+        	<span>travis</span><span class="seperator">|</span>
+            
+                    <ul>
+                        <li><a class="tag-select" href="/music.html">music</a></li>
+                    </ul>
+            
+            <span class="seperator">|</span>
+            <a href="#comments">comments</a>
+        </div>
+        <p><em>Posted on April 5, 2022 8:34 AM</em></p>
+		<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=324038407/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://smirk1.bandcamp.com/album/lp">LP by Smirk</a></iframe>
+		<div id="comments">
+            <h2>Comments</h2>
+        </div>
+		<script>
+			window.rpc_host = 'https://rpc.dyuproject.com';
+			window.comments_max_depth = 10; // max: 127
+			window.comments_collapse_depth = 7; // the depth where comments get collapsed by default
+		</script>
+		<script src="https://netlify-comments.dyuproject.com/dist/build.js"></script>
+		<link rel="stylesheet" href="https://netlify-comments.dyuproject.com/dist/build.css" />
+	</div>
+	<div class="column column-33 menu">
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
@@ -77,7 +84,6 @@
     </nav>
 </div>
 </div>
-
 <footer class="row footer">
 	<div class="column">
 		<hr>
