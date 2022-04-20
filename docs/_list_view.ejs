@@ -1,4 +1,4 @@
-<% for (const date of Object.keys(sortable).sort().reverse().slice(0, 10)) { const {name, title, body, author, tags, slug} = sortable[date]; -%>
+<% for (const date of Object.keys(sortable).sort().reverse()) { const {name, title, body, author, tags, slug} = sortable[date]; -%>
     <% const formatted_date = new Date(parseInt(date)); %>
     <div class="post-teaser">
         <span class="title"><a href="posts/<%= slug %>.html"><%= title %></a></span>
