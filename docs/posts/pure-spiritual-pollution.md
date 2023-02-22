@@ -8,3 +8,11 @@ tags:
 This song gets stuck in my head like once a year out of nowhere and I always forget who or what it is, so I'm just putting this here so I remember next time.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tuInf_sGPXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Bonus **PURE**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oDwJQ59fhNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>\
+\
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SjE2PZ1lDF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oqAW8K3ReMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
